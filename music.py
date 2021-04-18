@@ -48,5 +48,4 @@ if __name__ == "__main__":
     insert_data()
     retrieve_data()
 
-if __name__ == "__main__":
-    insert_data()
+
