@@ -3,7 +3,7 @@ def insert_data():
     con = lite.connect('pets.db')
 
     with con:
-        import sqlite3 as lite
+        
 
         con = lite.connect('pets.db')
 
@@ -16,8 +16,8 @@ def insert_data():
             cur.execute("CREATE TABLE person(id INTEGER PRIMARY KEY, first_name TEXT, last_name TEXT, age INTEGER)")
             cur.execute("INSERT INTO person VALUES(1,'James','Smith',41)")
             cur.execute("INSERT INTO person VALUES(2,'Diana','Greene',23)")
-            cur.execute("INSERT INTO person VALUES((3'Sara','White',27)")
-            cur.execute("INSERT INTO person VALUES((4,'William','Gibson',23)")
+            cur.execute("INSERT INTO person VALUES(3,'Sara','White',27)")
+            cur.execute("INSERT INTO person VALUES(4,'William','Gibson',23)")
 
             cur.execute("DROP TABLE IF EXISTS pet")
 
